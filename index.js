@@ -163,10 +163,9 @@ function wrongAnswer() {
         <fieldset>
         <legend class="zzz">zZz</legend>
             <h3 class="wrong-text">Your answer is incorrect sleepyhead...</h3> 
-            <br>
             <img src="imgs/wrong.gif" alt="baby falling sleep" class="reactions">
             <p class="wrong-p">The correct answer is:</p>
-            <p class="correction">${STORE[questionNum].correctAnswer}</p> <br>
+            <p class="correction">${STORE[questionNum].correctAnswer}</p> 
             <button type="button" class="nextButton">Next</button>
         </fieldset>
       </section>  
