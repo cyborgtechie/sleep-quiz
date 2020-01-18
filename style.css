@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  background: url(imgs/clouds2.jpg) center no-repeat;
+  background-size: cover;
+  color: #8fcbff;
+}
+
+main,
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-height: 900px;
+}
+
+.info {
+  margin: 1em;
+}
+form {
+  display: flex;
+  max-width: 600px;
+  max-height: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  display: inline-flex;
+  margin-top: 10px;
+  font-size: 70px;
+  color: #043259;
+}
+.counter-box {
+  display: inline-flex;
+  margin-top: 10px;
+  padding-bottom: 0;
+  font-size: 30px;
+  color: #043259;
+}
+
+h2,
+h3 {
+  color: #f2d1c9;
+  padding: 1em;
+}
+header li {
+  list-style: none;
+  display: inline-flex;
+  margin: 1em;
+}
+
+.choices {
+  display: block;
+  padding: 1em;
+}
+
+.correction {
+  font-weight: 800;
+  font-style: italic;
+  color: #f2d1c9;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+fieldset {
+  border: 10px solid #2b5880;
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
+
+legend {
+  display: inline;
+  font-size: 5rem;
+}
+
+.quiz-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #043259;
+  border: 0.1em #0871cc solid;
+  height: 530px;
+  width: 700px;
+  margin: 20px auto;
+}
+.results-text,
+.restart {
+  padding: 0.2rem;
+}
+button {
+  margin: 1em auto;
+  width: 10em;
+  height: 4em;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: #443d48;
+  color: #b6dbf2;
+}
+
+button:hover,
+button:active {
+  background-color: #f2d1c9;
+  color: #003f75;
+}
+
+.reactions {
+  width: 300px;
+  /* padding: 0.09em; */
+}
