@@ -120,5 +120,68 @@ button:active {
 
 .reactions {
   width: 300px;
-  /* padding: 0.09em; */
+}
+
+/* css to make quiz responsive */
+
+@media all and (max-width: 700px) {
+  html {
+    background-size: cover;
+  }
+  .display {
+    width: 29.5em;
+    height: 31.5em;
+    padding-bottom: 2.6em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  form,
+  .quiz-bg {
+    height: 99%;
+    margin: 5px;
+  }
+  .restart {
+    margin: 1px;
+    height: 1.5em;
+    width: fit-content;
+  }
+  .nextButton {
+    margin: 1px;
+    height: 1.5em;
+    width: 5em;
+  }
+  button {
+    margin: 1em auto;
+    font-size: 1em;
+    width: 5em;
+    height: 2.5em;
+  }
+  fieldset {
+    width: 95%;
+    height: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #2b5880;
+  }
+  h2,
+  h3,
+  p,
+  legend,
+  .choices,
+  .finalForm,
+  .correction {
+    font-size: 0.9em;
+    padding: 2.5px;
+  }
+
+  .counter-box {
+    font-size: 0.9em;
+  }
+  .reactions {
+    width: 50%;
+    margin: 5px;
+  }
 }
